@@ -359,6 +359,7 @@ export default function AdminHome() {
         <div className="cartexhead">
           <div className="carheadtext">
             <h1>Cars</h1>
+            <h1>updated Changes</h1>
           </div>
           <div className="carheadbtn">
             <Button variant="contained" color="primary" onClick={()=>router.push("/adminpage/pages/admin_cars/addnewcar")}>
